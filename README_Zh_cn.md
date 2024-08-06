@@ -10,7 +10,7 @@
 3.  | 将您的音乐集放到"music"文件夹。
 4.  | 运行"1_Move illegal filename files.bat"。
 5.  | 运行完"1_Move illegal filename files.bat"后，将disable_music文件夹里的mp3重命名，不可包含"[","]","'"。之后，便可移动到music文件夹。
-6.  | 运行"2_Retrieve music playlist.bat"。
+6.  | 运行"2_Get musiclist.bat"。
 7.  | 将输出的"MusicList.txt"文件打开，仅复制"['a','b','c']"(有换行不要复制)。
 8.  | 用记事本(VSCode最好，一目了然)，找到130行的如下部分:        const songs = ['a.mp3','b.mp3','c.mp3'] ;
 9.  | 将['a.mp3','b.mp3','c.mp3']，替换成你剪切板内容，保存。
